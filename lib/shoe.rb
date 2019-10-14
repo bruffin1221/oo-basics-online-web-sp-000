@@ -20,19 +20,3 @@ class Shoe
     @condition=new
   end
 end
-
-class Shoe
-  attr_accessor :condition
-
-  def cobble=(condition)
-    @condition=new
-  end
-
-end
-
-nike=Shoe.new
-nike.condition="torn"
-nike.cobble="new"
-
-nike.condition
-nike.cobble
